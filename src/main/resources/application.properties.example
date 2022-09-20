@@ -1,0 +1,8 @@
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url={url_path}
+spring.datasource.username={database_username}
+spring.datasource.password={database_password}
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+hibernate.search.default.directory_provider=filesystem
+hibernate.search.default.indexBase=/data/index/default
